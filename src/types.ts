@@ -2,6 +2,7 @@ import { Components } from 'hast-util-to-jsx-runtime'
 import type { Pluggable } from 'unified'
 
 export interface VueMarkdownOptions {
+  animated?: Boolean
   enableSanitize?: Boolean
   isBreaks?: Boolean
   enableLatex?: Boolean

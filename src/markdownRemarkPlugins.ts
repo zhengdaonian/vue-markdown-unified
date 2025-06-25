@@ -8,7 +8,7 @@ import { Pluggable } from "unified"
 export function markdownRemarkPlugins(options: VueMarkdownOptions) {
     const { remarkPlugins, isBreaks, enableLatex } = options
     const plugins = computed(() => [
-      remarkGfm,
+      [remarkGfm, { singleTilde: false }],
       isBreaks && remarkBreaks,
       enableLatex && remarkMath,
     ].filter(Boolean) as Pluggable[])

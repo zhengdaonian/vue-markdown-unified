@@ -11,10 +11,10 @@ export function markdownRehypePlugins(options: VueMarkdownOptions) {
 
     const plugins = computed(() =>
         [
-        rehypeGithubAlerts,
-        allowHtml && rehypeRaw,
-        enableLatex && rehypeKatex,
-        enableSanitize && rehypeSanitize
+            rehypeGithubAlerts,
+            allowHtml && rehypeRaw,
+            enableLatex && [rehypeKatex, { displayMode: true }],
+            enableSanitize && rehypeSanitize
         ].filter(Boolean) as Pluggable[]
     )
     return computed(() => [

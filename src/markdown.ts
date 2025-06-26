@@ -1,4 +1,4 @@
-import { Props, toJsxRuntime } from 'hast-util-to-jsx-runtime'
+import { toJsxRuntime } from 'hast-util-to-jsx-runtime'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'

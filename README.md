@@ -9,7 +9,7 @@ Vue3 VNode to render markdown.
 - [x] **默认安全（无攻击或 XSS 攻击）**
       (no `dangerouslySetInnerHTML` or XSS attacks)
 - [x] **组件**
-      组件（传递您自己的组件以使用 ，而不是 for<h2>## hi)
+      组件（传递您自己的组件以使用，而不是 `<h2>` for `## hi`)
 - [x] **插件**
       (内置插件，并且可以设置插件，您可以 unified 生态中选择许多插件)
 - [x] **兼容**

@@ -18,6 +18,7 @@
     "markdown"
   ],
   "author": "zhengdaonian",
+  "repository": "https://github.com/zhengdaonian/vue-markdown-unified",
   "bugs": "https://github.com/zhengdaonian/vue-markdown-unified/issues",
   "files": [
     "dist",
